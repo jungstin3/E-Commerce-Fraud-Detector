@@ -41,3 +41,4 @@ pred_label = rf.predict(input_scaled)[0]
 st.subheader("Prediction Result")
 st.write(f"Fraud Probability: {pred_prob:.2f}")
 st.write(f"Predicted Label: {'Fraud' if pred_label==1 else 'Not Fraud'}")
+
